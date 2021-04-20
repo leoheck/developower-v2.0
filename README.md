@@ -1,9 +1,11 @@
 ## Developower-v2.0
 
-Developower-v2.0 board for the Chinese 3018 CNC's on Kicad.
+This project is an effort to recreate Developower-v2.0 board on Kicad.
+
+This is the Developower-v2.0 board used on those Chinese 3018 CNC's.
 
 <img src="misc/developower-v2.0.jpg" width="600">
 
-This project is still a work in progress.
+This is the current version of the layout, but it is still a work in progress.
 
 <img src="misc/board.png" width="600">
