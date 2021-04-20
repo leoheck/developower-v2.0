@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Developower)(type KiCad)(uri ${KIPRJMOD}/lib/developower.pretty)(options "")(descr ""))
+)
