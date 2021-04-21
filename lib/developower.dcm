@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP WJ0625A
+D N-Channel 90 A MOSFET
+$ENDCMP
+#
 #End Doc Library

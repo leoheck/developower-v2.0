@@ -55,7 +55,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "./lib/A4988 RED.step"
+  (model "./lib/3dmodels/A4988 RED.step"
     (offset (xyz 0 0 7.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
