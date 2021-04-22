@@ -1,7 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +12V
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
 $CMP WJ0625A
 D N-Channel 90 A MOSFET
+$ENDCMP
+#
+$CMP XL4015E1
+D 5A 180KHz 36V Buck DC to DC Converter
+F https://datasheet.lcsc.com/lcsc/1811081616_XLSEMI-XL4015E1_C51661.pdf
 $ENDCMP
 #
 #End Doc Library
