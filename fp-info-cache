@@ -1,4 +1,4 @@
-19087392608359158
+19095488690364158
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48783,12 +48783,47 @@ Power Jack
 3
 3
 Developower
+JST_S2B-XH-A(LF)(SN)
+
+
+0
+2
+2
+Developower
+JST_S3B-XH-A(LF)(SN)
+
+
+0
+3
+3
+Developower
+JST_S4B-XH-A(LF)(SN)
+
+
+0
+4
+4
+Developower
+L_Vishay_IHLP-4040
+Inductor, Vishay, IHLP series, 10.2mmx10.2mm
+inductor vishay ihlp smd
+0
+2
+2
+Developower
 Pololu_Breakout-16_15.2x20.3mm
 Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\
 Pololu Breakout
 0
 16
 16
+Developower
+Relay_SPDT_SANYOU_SRD_Series_Form_C
+relay Sanyou SRD series Form C http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
+relay Sanyu SRD form C
+0
+5
+5
 Developower
 chinese-text
 
