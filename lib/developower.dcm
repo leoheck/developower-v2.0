@@ -6,7 +6,7 @@ K power-flag
 $ENDCMP
 #
 $CMP WJ0625A
-D N-Channel 90 A MOSFET
+D N-MOSFET  60V/25A
 $ENDCMP
 #
 $CMP XL4015E1
