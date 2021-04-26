@@ -501,17 +501,6 @@ Wire Wire Line
 	1625 3575 1725 3575
 Wire Wire Line
 	1625 3500 1625 3575
-$Comp
-L MCU_Module:Arduino_Nano_v3.x J8
-U 1 1 5E00F681
-P 1625 2500
-F 0 "J8" H 1325 3550 50  0000 C CNN
-F 1 "Arduino_Nano" H 1100 3475 50  0000 C CNN
-F 2 "Developower:Arduino_Nano" H 1625 2500 50  0001 C CIN
-F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 1625 2500 50  0001 C CNN
-	1    1625 2500
-	1    0    0    -1  
-$EndComp
 Text Label 3800 3550 0    50   ~ 0
 D11
 Text Label 3775 7150 2    50   ~ 0
@@ -1682,7 +1671,6 @@ F 3 "" H 1950 1425 50  0001 C CNN
 $EndComp
 NoConn ~ 2275 2000
 NoConn ~ 2275 1900
-NoConn ~ 1525 1500
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 60A034F0
@@ -1917,4 +1905,32 @@ F 3 "~" H 4850 4575 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4850 4575 4725 4575
+$Comp
+L power:+12V #PWR?
+U 1 1 6088AE8B
+P 1400 1425
+F 0 "#PWR?" H 1400 1275 50  0001 C CNN
+F 1 "+12V" H 1415 1598 50  0000 C CNN
+F 2 "" H 1400 1425 50  0001 C CNN
+F 3 "" H 1400 1425 50  0001 C CNN
+	1    1400 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1525 1500 1525 1450
+Wire Wire Line
+	1525 1450 1400 1450
+Wire Wire Line
+	1400 1425 1400 1450
+$Comp
+L MCU_Module:Arduino_Nano_v3.x J8
+U 1 1 5E00F681
+P 1625 2500
+F 0 "J8" H 1125 3450 50  0000 C CNN
+F 1 "Arduino_Nano" H 925 3375 50  0000 C CNN
+F 2 "Developower:Arduino_Nano" H 1625 2500 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 1625 2500 50  0001 C CNN
+	1    1625 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
