@@ -9,3 +9,7 @@ This is the Developower-v2.0 board used on those Chinese 3018 CNC's.
 This is the current version of the layout, but it is still a work in progress.
 
 <img src="misc/board.png" width="600">
+
+A simple cover for the board can be found here too.
+
+<img src="misc/case.png" width="600">
